@@ -3,6 +3,9 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; Full credit to Bunker D who provided this in this thread:
+; https://www.autohotkey.com/boards/viewtopic.php?style=19&p=433963#p433963
+; I did not contribute anything to this
 ShiftAppVolume( appName, incr )
 {
     if !appName
